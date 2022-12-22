@@ -92,7 +92,7 @@
 
 <body>
     <div class="mytitle">
-        <h1>내 생애 최고의 영화들!</h1>
+        <h1>내 생애 최고의 영화들</h1>
         <button>영화 기록하기</button>
     </div>
 
@@ -102,9 +102,25 @@
         <label for="floatingInput">영화 url</label>
     </div>
 
+    <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">별점</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>--선택하기--</option>
+          <option value="1">⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+        </select>
+      </div>
+
     <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">코멘트</label>
+        <textarea class="form-control" placeholder="Leave a comment here" 
+        id="floatingTextarea" 
+        style ="height100px"
+       ></textarea>
+        <label for="floatingTextarea2">코멘트</label>
+       
     </div>
 
     <div class="mybtn">
@@ -123,7 +139,7 @@
                         <h5 class="card-title">영화 제목이 들어갑니다</h5>
                         <p class="card-text">여기에 코멘트가 들어갑니다</p>
                         <p>⭐⭐⭐</p>
-                        <p class="mycomment">나 의견쓰기</p>
+                        <p class="mycomment">내 의견쓰기</p>
                     </div>
                 </div>
 
